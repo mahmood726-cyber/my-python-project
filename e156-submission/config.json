@@ -2,12 +2,12 @@
   "title": "my-python-project: Reproducibility Capsule for a Python Evidence-Synthesis Scaffold",
   "slug": "my-python-project",
   "date": "2026-03-28",
-  "path": "C:\\Projects\\my-python-project",
+  "path": "/mnt/c/Projects/my-python-project",
   "type": "methods",
   "primary_estimand": "documentation proportion",
   "certainty": "moderate",
   "summary": "Reviewer-facing capsule built from 13 source files, 3 tests, and 0 copied assets.",
-  "body": "Can a reproducibility capsule turn an evidence-synthesis repository into a reviewer-auditable submission without restaging the workflow? We audited the shipped project using 13 source files, 3 test files, 1 manuscript or guide files, and 0 dashboard or figure assets committed locally. The capsule packages a micro-paper, a machine-readable config, an interactive reader, and a protocol so the repository can be inspected across reviewers. Across the inventory, the repository yields a documentation proportion of 0.06, with file-count range 0-13 across core surfaces, while exposing 1 entry points and 30 declared dependencies. Git metadata, file counts, and copied assets provide a stable local audit trail even when engine outputs remain outside the submission bundle. This packaging step converts a diffuse codebase into a citable, inspectable micro-publication suitable for rapid editorial triage and downstream peer review. The capsule does not verify scientific correctness itself; it standardizes what reviewers receive first, and deeper validation still depends on tests and manuscripts.",
+  "body": "Can a reproducibility capsule turn an evidence-synthesis repository into a reviewer-auditable submission without restaging the workflow? We audited the shipped project using 13 source files, 3 test files, 2 manuscript or guide files, and 0 dashboard or figure assets committed locally. The capsule packages a micro-paper, a machine-readable config, an interactive reader, and a protocol so the repository can be inspected across reviewers. Across the inventory, the repository yields a documentation proportion of 0.11, with file-count range 0-13 across core surfaces, while exposing 1 entry points and 30 declared dependencies. Git metadata, file counts, and copied assets provide a stable local audit trail even when engine outputs remain outside the submission bundle. This packaging step converts a diffuse codebase into a citable, inspectable micro-publication suitable for rapid editorial triage and downstream peer review. The capsule does not verify scientific correctness itself; it standardizes what reviewers receive first, and deeper validation still depends on tests and manuscripts.",
   "sentences": [
     {
       "role": "Question",
@@ -15,7 +15,7 @@
     },
     {
       "role": "Dataset",
-      "text": "We audited the shipped project using 13 source files, 3 test files, 1 manuscript or guide files, and 0 dashboard or figure assets committed locally."
+      "text": "We audited the shipped project using 13 source files, 3 test files, 2 manuscript or guide files, and 0 dashboard or figure assets committed locally."
     },
     {
       "role": "Method",
@@ -23,7 +23,7 @@
     },
     {
       "role": "Primary result",
-      "text": "Across the inventory, the repository yields a documentation proportion of 0.06, with file-count range 0-13 across core surfaces, while exposing 1 entry points and 30 declared dependencies."
+      "text": "Across the inventory, the repository yields a documentation proportion of 0.11, with file-count range 0-13 across core surfaces, while exposing 1 entry points and 30 declared dependencies."
     },
     {
       "role": "Robustness",
@@ -40,7 +40,7 @@
   ],
   "notes": {
     "app": "my-python-project E156 Capsule v1.0",
-    "data": "Repository inventory with 13 source files, 3 test files, 1 documents, and 0 assets.",
+    "data": "Repository inventory with 13 source files, 3 test files, 2 documents, and 0 assets.",
     "code": "https://github.com/mahmood726-cyber/my-python-project",
     "doi": "",
     "version": "1.0",
