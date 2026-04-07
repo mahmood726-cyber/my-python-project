@@ -1,6 +1,6 @@
 Mahmood Ahmad
 Tahir Heart Institute
-author@example.com
+mahmood.ahmad2@nhs.net
 
 my-python-project: Reproducibility Capsule for a Python Evidence-Synthesis Scaffold
 
