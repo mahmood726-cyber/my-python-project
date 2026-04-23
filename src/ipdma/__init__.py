@@ -6,7 +6,12 @@ with support for survival analysis, network meta-analysis, transportability,
 and causal inference methods.
 """
 
-from ipdma.__version__ import __version__
+try:
+    from ipdma.__version__ import __version__
+except ModuleNotFoundError:
+    # setuptools_scm writes this file during build, but local checkouts should
+    # remain importable for tests and direct development.
+    __version__ = "0+unknown"
 from ipdma.api import IPDAnalysis, IPDResults
 from ipdma.model_spec import ModelSpec
 from ipdma.exceptions import (

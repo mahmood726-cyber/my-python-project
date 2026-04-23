@@ -7,7 +7,13 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 import warnings
-from loguru import logger
+
+try:
+    from loguru import logger
+except ModuleNotFoundError:
+    import logging
+
+    logger = logging.getLogger(__name__)
 
 from ipdma.exceptions import ConvergenceError, DataError
 from ipdma.config import settings

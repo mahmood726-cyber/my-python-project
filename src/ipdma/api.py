@@ -4,8 +4,14 @@ from typing import Union, Optional, List, Dict, Any
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from loguru import logger
 import json
+
+try:
+    from loguru import logger
+except ModuleNotFoundError:
+    import logging
+
+    logger = logging.getLogger(__name__)
 
 from ipdma.model_spec import ModelSpec, OutcomeSpec, TreatmentSpec, ModelFamily, EstimandSpec
 from ipdma.exceptions import IPDMAError, SpecificationError
