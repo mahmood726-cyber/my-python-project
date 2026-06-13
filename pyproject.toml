@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ipdma"
 authors = [{name = "IPD Meta-Analysis Contributors", email = "contact@ipdma.org"}]
-description = "State-of-the-art Individual Patient Data Meta-Analysis platform"
+description = "Individual Patient Data Meta-Analysis specification and analysis scaffold"
 readme = "README.md"
 license = {text = "MIT"}
 classifiers = [

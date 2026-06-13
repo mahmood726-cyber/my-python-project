@@ -1,9 +1,10 @@
 """
-IPDMA: Individual Patient Data Meta-Analysis Platform
+IPDMA: Individual Patient Data Meta-Analysis
 
-A comprehensive platform for conducting state-of-the-art IPD meta-analyses
-with support for survival analysis, network meta-analysis, transportability,
-and causal inference methods.
+A specification and analysis scaffold for IPD meta-analyses. Model
+specification and configuration are implemented; estimation engines for
+survival analysis, network meta-analysis, transportability, and causal
+inference are planned.
 """
 
 try:
